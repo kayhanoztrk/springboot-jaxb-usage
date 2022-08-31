@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <InstanceId>12345</InstanceId>
+    <Xuser>
+        <id>1</id>
+        <name>James</name>
+        <surname>Hetfield</surname>
+        <birthDate>1965-05-19</birthDate>
+    </Xuser>
+    <Xuser>
+        <id>2</id>
+        <name>Lars</name>
+        <surname>Ulrich</surname>
+        <birthDate>1954-05-19</birthDate>
+    </Xuser>
+</root>
