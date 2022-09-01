@@ -1,22 +1,17 @@
 package com.jaxbusage.demo.util;
 
 import com.jaxbusage.demo.model.Root;
-import com.jaxbusage.demo.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ResourceUtils;
 
-import javax.xml.bind.JAXB;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
-import java.util.List;
 
 @Component
 public class XmlParser {
