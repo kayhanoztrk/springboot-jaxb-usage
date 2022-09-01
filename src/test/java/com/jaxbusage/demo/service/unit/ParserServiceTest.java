@@ -19,6 +19,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 /**
+ * Unit test for {@link ParserService}
+ *
  * @author Kayhan Öztürk
  * @version 0.1
  * @since 0.1

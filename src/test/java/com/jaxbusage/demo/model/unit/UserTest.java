@@ -9,6 +9,8 @@ import java.sql.Date;
 import java.time.Instant;
 
 /**
+ * Unit test for {@link User}
+ *
  * @author Kayhan Öztürk
  * @version 0.1
  * @since 0.1

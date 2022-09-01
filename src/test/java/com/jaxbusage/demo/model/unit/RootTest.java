@@ -11,6 +11,8 @@ import java.util.Arrays;
 import java.util.Date;
 
 /**
+ * Unit test for {@link Root}
+ *
  * @author Kayhan Öztürk
  * @version 0.1
  * @since 0.1

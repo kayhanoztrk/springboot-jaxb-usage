@@ -5,13 +5,13 @@ import com.jaxbusage.demo.util.XmlParser;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.boot.test.autoconfigure.graphql.GraphQlTest;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 /**
  * Unit test for {@link XmlParser}
+ *
  * @author Kayhan Öztürk
  * @version 0.1
  * @since 0.1
@@ -19,8 +19,9 @@ import java.io.IOException;
 public class XmlParserTest {
 
     private XmlParser xmlParser;
+
     @Before
-    public void setUp(){
+    public void setUp() {
         xmlParser = new XmlParser();
     }
 
