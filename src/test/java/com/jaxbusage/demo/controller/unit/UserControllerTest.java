@@ -35,7 +35,7 @@ public class UserControllerTest {
         userController = new UserController(parserService);
 
         root = new Root();
-        root.setInstanceId("instanceId");
+        //root.setInstanceId("instanceId");
         root.setUserList(Arrays.asList(new User(2L,"Bob",
                 "Marley", Date.from(Instant.now()))));
 

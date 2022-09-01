@@ -20,9 +20,7 @@ import java.util.List;
 @NoArgsConstructor
 @XmlRootElement(name = "root")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Root {
-    @XmlElement(name = "InstanceId")
-    private String instanceId;
+public class Root extends BaseRoot {
     @XmlElement(name = "Xuser")
     private List<User> userList;
 }

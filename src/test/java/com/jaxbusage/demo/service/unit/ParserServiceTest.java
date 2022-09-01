@@ -36,7 +36,7 @@ public class ParserServiceTest {
         parserService = new ParserServiceImpl(xmlParser);
 
         root = new Root();
-        root.setInstanceId("instanceId");
+        //root.setInstanceId("instanceId");
         root.setUserList(Arrays.asList(new User(2L,"BOB","Marley",
                 Date.from(Instant.now()))));
 

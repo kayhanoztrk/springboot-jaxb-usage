@@ -22,16 +22,15 @@ public class RootTest {
     @Before
     public void setUp(){
         root = new Root();
-        root.setInstanceId("instanceID");
+        //root.setInstanceId("instanceID");
         root.setUserList(Arrays.asList(new User(1L,"Bob","Marley",Date.from(Instant.now()))));
     }
 
     @Test
     public void testGetter(){
         Assert.assertNotNull(root);
-        Assert.assertNotNull(root.getInstanceId());
+        //Assert.assertNotNull(root.getInstanceId());
         Assert.assertNotNull(root.getUserList());
     }
-
 
 }
